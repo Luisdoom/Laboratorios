@@ -1,0 +1,12 @@
+
+body{background-color:black;color:white;border:1px solid black;  outline-style: solid;outline-color: red;}
+p.Info{line-height:0.2;text-align:center;}
+p.Mision{line-height:0.2;text-align:left;font-size:100%;font-family:"Space Grotesk", sans-serif;}
+h2.subt{font-family:"Space Grotesk", sans-serif;}
+h3{font-family:"Space Grotesk", sans-serif;line-height:0.1}
+ul{font-family: "Trirong", serif;}
+#nombre{font-size:200%;font-family:"Abril Fatface", sans-serif;}
+#carrera{font-size:150%;font-family:"Audiowide", sans-serif;}
+#correo{font-size:100%;font-family:"Teko", sans-serif;}
+#infoCorreo1{float:right}
+#infoCorreo2{float:left}

@@ -1,26 +1,30 @@
 <!DOCtype html>
 <html>
-<head>
-  
+<head>  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="stylesheet" href="style.css">  
 <title>Laboratorio 1</title>
 <meta name="Esta página muestra el primer Laboratorio de la clase de Desarrollo Web" content="Curriculum">
 <meta name="Ingeniería Biomédica, Ingeniería Clínica" content="Informacón sobre el estudiante">  
 </head>
    <style>
-     p.Info{line-height:0.2;text-align:center}
-     p.Mision{line-height:0.2;text-align:left;font-size:100%;}
+    
    </style>
 
 
  <Header> <!--Información del estudiante-->
   
-  <p class="Info" style="font-size:200%;">
+  <p class="Info" id=nombre>
      Luis Arturo García Esquivel
    </p>
-   <p class="Info" style="font-size:150%;text-align:center;">
+   <p class="Info" id="carrera">
      Ingeniería Biomédica
    </p>
-   <p class="Info" style="font-size:100%;">
+   <p class="Info" id="correo">
     <a href="luisesquivel97@hotmail.com"> luisesquivel97@hotmail.com
      </a>
    </p>   
@@ -35,10 +39,10 @@ de vida de otras personas.
   </p>
    <hr>
 
- <h2>
+ <h2 class="subt" id="Edu">
   Educación
  </h2>
- <h3 style="line-height:0.1">
+ <h3>
    ITESM Campus Ciudad de México
  </h3>
   <ul>
@@ -55,7 +59,7 @@ de vida de otras personas.
       Diplomado en Python
     </li>
   </ul>
- <h3 style="line-height:0.1">
+ <h3>
    Idiomas
  </h3>
   <ul>
@@ -72,7 +76,7 @@ de vida de otras personas.
       Español nativo
     </li>
     </ul>
-   <h3 style="line-height:0.1">
+   <h3>
     Uso de Software
     
   </h3>
@@ -94,7 +98,7 @@ de vida de otras personas.
    <h3>
     Hospital Médica Sur
   </h3>
-     <h4 >
+     <h4>
        <i>Estancia Profesional- Departamento de Ingeniería Clínica (Enero 2018 - Diciembre 2019)</i>
       <nav><a href=https://www.medicasur.com.mx/es_mx/ms/urg_Infartos?gclid=Cj0KCQiAzeSdBhC4ARIsACj36uFP1Jq4O7ZF_fr-vERq1U1fAq_rhTzMrqRVhCGq4nfSFCQJcj1CblIaAmgMEALw_wcB>Médica Sur WebPage</a></nav>
   </h4>
@@ -106,8 +110,9 @@ de vida de otras personas.
   <hr>
   <footer>
     <adress>
-      <p><a>A01337562@tec.mx</a></p>
-      <p><a>luisesquivel97@hotmail.com</a></p>
+      
+      <p id="infoCorreo1"><a>A01337562@tec.mx</a></p>
+      <p id="infoCorreo2"><a>luisesquivel97@hotmail.com</a></p>
     
     </adress>
   </footer>
